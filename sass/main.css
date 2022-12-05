@@ -364,6 +364,9 @@ footer .boxFooter div p {
   color: rgba(0, 0, 0, 0.932);
   text-decoration: underline;
 }
+.preguntas i {
+  margin-bottom: 50px;
+}
 .preguntas .irA {
   background-color: #3a665a;
   color: white;
