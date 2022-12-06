@@ -3,18 +3,15 @@ footer{
     background-color: #1d1b1c;
     color: aliceblue;
     width: 100%;
-    padding: 15px;
-    justify-content: space-around; 
+    padding: 15px; 
     font-size: medium;
     .boxFooter{
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
         div{
-            margin:25px;
+            margin:20px;
             i{
                 margin: 5px;
-                cursor: pointer;
             }
             p{
                 font-weight: 500;

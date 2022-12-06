@@ -221,20 +221,17 @@ footer {
   color: aliceblue;
   width: 100%;
   padding: 15px;
-  justify-content: space-around;
   font-size: medium;
 }
 footer .boxFooter {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
 }
 footer .boxFooter div {
-  margin: 25px;
+  margin: 20px;
 }
 footer .boxFooter div i {
   margin: 5px;
-  cursor: pointer;
 }
 footer .boxFooter div p {
   font-weight: 500;
@@ -423,7 +420,7 @@ footer .boxFooter div p {
   color: white;
   width: 65%;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.226);
+  background-color: rgba(255, 255, 255, 0.185);
   border: 4px solid white;
   font-size: larger;
   font-family: monospace;
@@ -477,12 +474,26 @@ footer .boxFooter div p {
     padding: 5px;
   }
   .medidas .tablas tr td {
-    padding: 0px;
+    padding: 10px;
     display: block;
   }
-  .contacto {
+  .paginaDeContacto {
     padding: 15px;
+  }
+  .paginaDeContacto .contacto {
+    font-size: 1.2rem;
+    padding: 0px;
     width: 100%;
+  }
+  .paginaDeContacto .contacto h2 {
+    font-size: 2rem;
+  }
+  .paginaDeContacto .contacto input {
+    width: 60%;
+    margin-bottom: 15px;
+  }
+  .paginaDeContacto .contacto textarea {
+    width: 65%;
   }
   .about {
     padding: 30px 5px;
