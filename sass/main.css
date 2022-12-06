@@ -338,7 +338,7 @@ footer .boxFooter div p {
 }
 .info .infoSN, .info .infoMA, .info .infoPF, .info .infoRS {
   font-size: large;
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(255, 255, 255, 0.63);
   text-align: center;
   border-radius: 5px;
 }
@@ -357,7 +357,7 @@ footer .boxFooter div p {
 
 .preguntas {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(255, 255, 255, 0.63);
 }
 .preguntas h2 {
   font-weight: 700;
@@ -388,7 +388,7 @@ footer .boxFooter div p {
   margin: 30px auto;
 }
 .medidas .tablas {
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(255, 255, 255, 0.63);
   padding: 50px;
 }
 .medidas .tablas td {
