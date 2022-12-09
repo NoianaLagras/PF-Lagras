@@ -506,12 +506,14 @@ footer .boxFooter div p {
   }
   footer {
     padding: 10px;
+    font-size: 15px;
   }
-  footer div {
+  footer .boxFooter {
     margin: 20px;
+    display: inline-block;
   }
-  footer div i {
-    margin-left: 5px;
+  footer .boxFooter div {
+    display: inline-block;
   }
 }
 @media (max-width: 750px) {
@@ -567,18 +569,5 @@ footer .boxFooter div p {
     font-size: medium;
     padding: 5px;
     width: 100%;
-  }
-  footer {
-    padding: 0;
-  }
-  footer .boxFooter div {
-    margin: 10px;
-  }
-  footer .boxFooter div p {
-    font-size: 12px;
-  }
-  footer .boxFooter div i {
-    font-size: 15px;
-    margin-left: 2px;
   }
 }/*# sourceMappingURL=main.css.map */

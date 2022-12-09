@@ -62,17 +62,19 @@
         padding: 0
     }
     
-    footer{
+footer{
         padding: 10px;
-        div{
-            margin: 20px;
-        
-        i{
-        margin-left: 5px;
+        font-size: 15px;
+        .boxFooter{
+        margin: 20px;
+        display: inline-block;
+            div{
+            display: inline-block;
+
+            }
         }
     }
 
-}
 
 }
 
@@ -136,18 +138,7 @@
 }
 
 
-    footer{
-        padding: 0;
-        .boxFooter div{
-                margin: 10px;
-                p{
-                font-size:  12px;
-                }
-            
-                i{
-                font-size: 15px;
-                margin-left: 2px;
-                }
-            }
-        }
+
+
+
 }
