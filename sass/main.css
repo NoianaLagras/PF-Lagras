@@ -506,14 +506,16 @@ footer .boxFooter div p {
   }
   footer {
     padding: 10px;
-    font-size: 15px;
   }
   footer .boxFooter {
-    margin: 20px;
+    margin: 20px 15px;
     display: inline-block;
   }
   footer .boxFooter div {
     display: inline-block;
+  }
+  footer .boxFooter div i {
+    font-size: 40px;
   }
 }
 @media (max-width: 750px) {
