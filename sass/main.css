@@ -504,9 +504,6 @@ footer .boxFooter div p {
   .fondoProductos {
     padding: 0;
   }
-  footer {
-    padding: 10px;
-  }
   footer .boxFooter {
     text-align: center;
     display: inline-block;
@@ -572,5 +569,11 @@ footer .boxFooter div p {
     font-size: medium;
     padding: 5px;
     width: 100%;
+  }
+  footer {
+    padding: 10px;
+  }
+  footer .boxFooter div {
+    margin: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
