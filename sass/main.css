@@ -26,7 +26,7 @@
   padding: 10px 15px;
   border-radius: 10px;
   font-weight: 500;
-  background-color: rgb(218, 113, 130);
+  background-color: rgb(162, 42, 61);
 }
 
 * {
@@ -327,7 +327,7 @@ footer .boxFooter div p {
   color: white;
 }
 .compraContainer .compraBotones p:hover {
-  background-color: rgb(245, 166, 179);
+  background-color: rgb(255, 105, 130);
 }
 .compraContainer .descripcion {
   grid-area: descripcion;
