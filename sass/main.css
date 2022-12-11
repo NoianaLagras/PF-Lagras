@@ -535,22 +535,22 @@ footer .boxFooter div p {
     display: block;
   }
   .paginaDeContacto {
-    padding: 15px;
+    padding: 25px 70px;
   }
   .paginaDeContacto .contacto {
     font-size: 1.2rem;
-    padding: 0px;
+    padding: 10px;
     width: 100%;
   }
   .paginaDeContacto .contacto h2 {
     font-size: 2rem;
   }
   .paginaDeContacto .contacto input {
-    width: 45%;
+    width: 40%;
     margin-bottom: 15px;
   }
   .paginaDeContacto .contacto textarea {
-    width: 50%;
+    width: 45%;
   }
   .about {
     padding: 30px 5px;
@@ -635,10 +635,21 @@ footer .boxFooter div p {
   .container .item {
     margin: 40px auto;
   }
-  .contacto {
-    font-size: medium;
-    padding: 5px;
-    width: 100%;
+  .paginaDeContacto {
+    padding: 20px;
+  }
+  .paginaDeContacto .contacto {
+    padding: 0px;
+  }
+  .paginaDeContacto .contacto h2 {
+    font-size: 35px;
+  }
+  .paginaDeContacto .contacto input {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .paginaDeContacto .contacto textarea {
+    width: 75%;
   }
   .compraContainer {
     display: flex;
