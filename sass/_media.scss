@@ -41,11 +41,11 @@
             font-size: 2rem;
         }
         input{
-            width: 60%;
+            width: 45%;
             margin-bottom: 15px;
         }
         textarea{
-            width: 65%;
+            width: 50%;
         }
     }
 }
@@ -61,7 +61,23 @@
     .fondoProductos{
         padding: 0
     }
+
+
     
+.compraContainer{
+    margin:50px auto;
+    padding: 10px;
+    .cardImg{
+        margin: 0px;
+    }
+    .compraTitle{
+        margin-top: 30px;
+    }
+    .compraBotones{
+        padding: 10px 40px;
+    }
+}
+
 
 footer .boxFooter{
         text-align: center;
@@ -137,6 +153,14 @@ footer .boxFooter{
     padding: 5px;
     width: 100%;
 }
+.compraContainer{
+    display: flex;
+    flex-direction: column;
+    .cardImg{
+        margin: 20px;
+    }
+}
+
 
 footer { 
     padding: 10px;
