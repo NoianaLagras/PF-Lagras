@@ -331,7 +331,6 @@ footer .boxFooter div p {
 }
 .compraContainer .descripcion {
   grid-area: descripcion;
-  border-radius: 3px rgba(0, 0, 0, 0.37);
   padding: 50px;
 }
 .compraContainer .descripcion p {

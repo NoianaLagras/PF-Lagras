@@ -29,7 +29,7 @@
         span{
             font-size: 25px;
         }
-}
+    }
 
     .compraBotones{
     grid-area: botones;
@@ -51,7 +51,6 @@
 
     .descripcion{
         grid-area: descripcion;
-        border-radius: 3px rgba(0, 0, 0, 0.37);
         padding: 50px;
         p{
             font-size: 20px;
