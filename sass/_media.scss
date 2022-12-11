@@ -179,11 +179,17 @@ footer .boxFooter{
     }
 }
 
-.info ,.containerProductos{
+.info {
     gap: 10px;
 }
 .botones{
     margin-bottom: 30px;
+}
+
+.containerProductos{
+display: flex;
+flex-direction: column;
+padding: 20px;
 }
 
 footer { 

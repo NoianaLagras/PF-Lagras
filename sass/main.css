@@ -662,11 +662,16 @@ footer .boxFooter div p {
   .compraContainer .cardImg {
     margin: 20px;
   }
-  .info, .containerProductos {
+  .info {
     gap: 10px;
   }
   .botones, .container .item a, .verMas, .preguntas .irA {
     margin-bottom: 30px;
+  }
+  .containerProductos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
   footer {
     padding: 10px;
