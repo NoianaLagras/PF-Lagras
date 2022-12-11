@@ -653,6 +653,7 @@ footer .boxFooter div p {
   }
   .todosLosProductos {
     margin: 100px 50px;
+    padding: 10px;
   }
   .compraContainer {
     display: flex;
