@@ -246,7 +246,6 @@ footer .boxFooter div p {
 }
 
 .todosLosProductos {
-  background-color: rgba(0, 0, 0, 0.897);
   color: whitesmoke;
   text-align: center;
   margin: 100px;
@@ -338,6 +337,7 @@ footer .boxFooter div p {
 }
 
 .fondoProductos {
+  margin: 50px auto;
   background-color: #b8dac2;
   padding: 10px;
 }
@@ -651,12 +651,21 @@ footer .boxFooter div p {
   .paginaDeContacto .contacto textarea {
     width: 75%;
   }
+  .todosLosProductos {
+    margin: 100px 50px;
+  }
   .compraContainer {
     display: flex;
     flex-direction: column;
   }
   .compraContainer .cardImg {
     margin: 20px;
+  }
+  .info, .containerProductos {
+    gap: 10px;
+  }
+  .botones, .container .item a, .verMas, .preguntas .irA {
+    margin-bottom: 30px;
   }
   footer {
     padding: 10px;

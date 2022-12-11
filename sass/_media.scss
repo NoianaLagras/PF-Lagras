@@ -165,6 +165,9 @@ footer .boxFooter{
 }
 }
 
+.todosLosProductos{
+    margin: 100px 50px;
+}
 
 .compraContainer{
     display: flex;
@@ -174,6 +177,12 @@ footer .boxFooter{
     }
 }
 
+.info ,.containerProductos{
+    gap: 10px;
+}
+.botones{
+    margin-bottom: 30px;
+}
 
 footer { 
     padding: 10px;
