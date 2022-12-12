@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+
+
+header {
+width: 100%;
+display:flex;
+justify-content: space-between;
+align-items: center;
+position:sticky;
+top: 0;
+background-color: #b8dac2;
+z-index: 999;
+padding: 5px;
+
+}
+h6 {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    font-family: monospace;
+    width: 15ch;
+    font-weight: 500;
+
+    animation: typing 1s steps(15) ,
+    blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+@keyframes blink {
+50% {border-color: transparent;
+}
+} 
+
+
+nav {
+    width: 550px;
+}
+
+.menu {
+    list-style: none; 
+    background-color: white;
+    justify-items: center;
+    border-radius: 3px;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a {  
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover { 
+    text-decoration:underline crimson 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}
+
+.submenu {
+    position: absolute; 
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    border-radius: 3px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+.todosLosProductos {
+    background-color: rgba(0, 0, 0, 0.897);
+    color: whitesmoke;
+    text-align: center;
+    margin: 100px;
+    border-radius: 3px;
+    animation: mi-efecto2;
+    animation-duration: 5s;
+    animation-iteration-count:infinite
+}
+@keyframes mi-efecto2{
+0% {
+    background-color: #c9437d;
+}
+50% {
+    background-color: #41a53f;
+}
+100% {
+    background-color: rgb(40, 155, 155);
+}
+}
+
+
+
+.container {
+
+width: 90%;
+margin: 50px auto;
+display: grid;
+grid-template-columns:1fr 1fr 1fr ;
+grid-template-rows: auto;
+}
+
+.item {
+
+    background-color: rgba(81, 128, 121, 0.918);
+    color: white;
+    margin: 40px;
+    border-radius: 3px;
+    text-align: center;
+}
+.item:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+.item button{
+    background-color: #314742;
+    color:rgb(255, 218, 218);
+    border: #4bcf49;
+    border-radius: 25px ;
+    padding: 7px;
+    margin: 10px;
+}
+.item button:hover{
+    background-color: rgba(245, 245, 220, 0.685);
+    color: black;
+    text-decoration: underline #FF0571 3px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.item img {
+padding: 10px;
+}
+
+.verMas{
+   color: #FF0571;
+   text-align: center;
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+
+
+
+.about{
+ margin: 50px auto;
+ background-image: url(../img/About\ \(2\).jpg);
+ padding: 50px;
+}
+.aboutUs{
+    text-align: center;
+    font-weight: 200;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    padding: 40px;
+}
+
+
+
+.paginaDeContacto{
+background-image: url(../img/contacto.jpg);
+margin: 50px auto;
+padding: 50px;
+}
+.contacto{
+    margin: 80px auto;
+    padding: 10px 50px;
+    width: 65%;
+    height: auto;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.226);
+    border: 4px solid white;
+    font-size: larger ;
+    font-family: monospace;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+p input:focus{
+    background-color: #a1dabb;
+}
+p input{
+    max-width: 100%;
+}
+textarea{
+    max-width: 100%;
+}
+textarea:focus{
+    background-color: #a1dabb;
+}
+
+
+.medidas{
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background-image: url(../img/About\ \(3\).jpg)
+}
+.tablas {
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 50px;
+}
+.tablas td{
+    padding: 20px;
+}
+
+
+
+.fondoP{
+    background-image: url(../img/About\ \(3\).jpg);
+    margin: 50px auto;
+    padding: 70px 0px;
+}
+.preguntas{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    font-family: monospace;
+}
+.irA{
+    border-radius: 10px;
+    background-color: rgba(81, 128, 121, 0.76);
+    padding: 10px;
+    color: crimson;
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+
+.joy{
+    background-color: #91aa98;
+    color: #1d1b1c;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.info{
+    margin: 50px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 30% auto ;
+    grid-template-areas: 
+    "sobre sobre redes"
+    "preg preg redes"
+    "medida medida medida"
+    ;
+}
+.infoSN , .infoMA, .infoPF, .infoRS{
+font-size: large;
+background-color: rgba(240, 248, 255, 0.514);
+text-align: center;
+border-radius: 5px;
+}
+.infoSN{
+    grid-area: sobre;
+}
+
+.infoPF{
+    grid-area: preg;
+
+}
+.infoRS{
+grid-area: redes;
+}
+.infoMA{
+    grid-area: medida;
+}
+
+
+
+
+.fondoProductos{
+background-color: #b8dac2;
+}
+.containerProductos{
+
+    display: grid;
+    margin: 90px auto;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Anillos Pulseras Collares"
+    "Todos Todos Todos"
+}
+
+.itemTodos{
+    grid-area: Todos;
+}
+.itemAnillos{
+    grid-area: Anillos;
+}
+.itemCollares{
+    grid-area: Collares;
+}
+.itemPulseras{
+    grid-area: Pulseras;
+}
+.containerProductos img{
+    margin: 0 auto;
+}
+.containerProductos p{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    
+}
+.containerProductos p:hover{
+    text-transform: uppercase;
+    text-decoration: underline 3px crimson;
+}
+
+.itemTodos, .itemAnillos, .itemCollares, .itemPulseras{
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin: 15px 0;
+    border-style: outset;
+}
+
+
+
+
+
+
+.boxFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto
+}
+
+footer{
+    background-color: #1d1b1c;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around; 
+    font-size: small;
+}
+/* bars */
+.icon{
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 35px;
+    font-size: 35px;
+    height: 100%;
+    display: none;
+    opacity: 0;
+}
+#check{
+    display: none;
+}
+
+
+
+@media screen and (max-width : 1024px) {
+.buscador{
+    display: none;
+}
+header{
+    justify-content: center;
+}
+nav{
+    margin-left: 20px;
+}
+
+
+.container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+}
+.item{
+    margin: 15px;
+}
+
+
+.contacto{
+width: 85%;
+}
+
+
+.medidas{
+    padding: 0px;
+
+}
+tr{
+    display: inline-block;
+    padding: 5px;
+
+}
+.tablas td{
+    padding: 0px;
+        display: block;
+}
+
+
+footer{
+    font-size: 10px;
+}
+footer h4,footer h5{
+    font-size: 15px;
+    padding: 5px;
+
+}
+footer i{
+    size: 2px;
+}
+}
+
+
+@media screen and ( max-width: 750px){
+.logo {
+width: 70px;
+margin-left: 5px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+
+}
+
+.icon{
+    display: flex;
+    opacity: 1;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.863);
+    transition: all 1s;
+}
+.menu li{
+    display: block;
+    line-height: 15px ;
+    margin:10px 0px;
+    transition: all 1s;
+
+}
+#check:checked ~ .menu{
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+
+}
+.submenu{
+display: none;
+}
+
+
+
+
+.contacto{
+    font-size: medium;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+footer{
+    font-size: 7px;
+}
+footer h4,footer h5{
+    font-size: 10px;
+    padding: 5px;
+}
+.containerProductos{
+    gap: 10px;
+}
+}
