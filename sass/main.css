@@ -51,6 +51,7 @@ a {
 
 img {
   max-width: 100%;
+  background-repeat: no-repeat;
 }
 
 .fondoP {
@@ -671,7 +672,7 @@ footer .boxFooter div p {
   .containerProductos {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
   }
   footer {
     padding: 10px;
