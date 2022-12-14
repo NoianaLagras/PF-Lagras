@@ -51,11 +51,11 @@ a {
 
 img {
   max-width: 100%;
-  background-size: cover;
 }
 
 .fondoP {
   background-image: url("../img/sobre2.webp");
+  background-size: cover;
   margin: 50px auto;
   padding: 70px 0px;
 }
@@ -456,6 +456,7 @@ footer .boxFooter div p {
 .about {
   margin: 50px auto;
   background-image: url("../img/sobre1.webp");
+  background-size: cover;
   padding: 50px;
 }
 .about .aboutUs {
